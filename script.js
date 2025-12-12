@@ -4,7 +4,7 @@
 
 const allowedLat = 26.891799745422247;  
 const allowedLng =  75.78927927116382;
-const radius = 0.05;
+const radius = 2;
 
 const studentMap = {
   "101": "Sunil Dhawan",
@@ -265,6 +265,7 @@ function renderHistoryTable(data) {
     };
     html2pdf().set(opt).from(element).save();
   }
+
 
 
 
